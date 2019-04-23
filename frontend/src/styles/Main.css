@@ -1,0 +1,61 @@
+.Main{
+    overflow: hidden;
+}
+
+.Main > header > ul{
+    list-style-type: none;
+    float:right;
+    position: fixed;
+    top:0;
+    right:0;
+}
+
+.Main > header > ul > li{
+    display: inline;
+    text-decoration: none;
+
+    font-size:1.8vw;
+}
+
+.Main > header > ul > li > a{
+    color:black;
+    padding:0.5vw;
+    margin:0.6vw;
+}
+.Main > header > ul > li > a:hover{
+    background-color:#f9ca24;
+}
+
+.mainBigtext{
+    font-size:4vw;
+    margin-top:30vh;
+    margin-left:8vw;
+}
+.bigTextEnd{
+    background-color: #f9ca24;
+}
+
+.profilePic{
+    width:30vw;
+    height:65vh;
+    position: absolute;
+    right:15vw;
+    bottom:0px;
+}
+@media only screen and (max-width: 768px){
+    .Main > header > ul > li{
+        display: inline;
+        text-decoration: none;
+    
+        font-size:2.3vw;
+    }
+
+    .profilePic{
+        width:30vw;
+        height:35vh;
+        position: absolute;
+        right:5vw;
+        top:0px;
+        background-color:yellow;
+    }
+}
