@@ -9,6 +9,9 @@ class dataBase{
             database: 'projects'
         });
     }
+    endConnection(){
+        this.connection.end();
+    }
 }
 
 module.exports = dataBase;
